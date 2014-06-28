@@ -1,16 +1,21 @@
-
-
 <?php
 
 function DisplayNav() {
 	echo(
 	"<div id='nav'>" .
-	"<a href='index.php' > Home </a> <br />" .
-	"<a href='Portfolio.php' > Portfolio </a> <br />" .
-	"<a href='Resume.php' > Resume </a> <br />" .
-	"<a href='JQTest.php' > JQTest </a> <br />" .
+	"<ul id=\"menu\">\n" .
+		"<li> <a href='index.php' > Home </a> </li>\n" .
+		"<li> <a href='Resume.php' > Resume </a> </li>\n" .
+		"<li> <a href='Portfolio.php' > Portfolio </a> 
+		<ul>
+			<li> <a href='Assembly.php' > Assembly MASM </a> </li>\n
+			<li> <a href='MatchingGame.php' > Matching Game </a> </li>\n
+			<li> <a href='AndroidFragments.php' > Android Fragments </a> </li>\n
+		</ul>
+		</li>\n" .
+		// "<li> <a href='JQTest.php' > JQTest </a> </li>\n" .
+	"</ul>\n" .
 	"</div>"
-	
 	);
 };
 
@@ -20,50 +25,8 @@ function DisplayHeader() {
 	"<div id='header'>" .
 	"<b>Elias Cole III</b>" .
 	"</div>"
-	
-	
 	);
-
 };
-
-
-function RenderMenu(){
-	echo "			<ul id=\"menu\">\n"; 
-	echo "				<li>Aberdeen</li>\n"; 
-	echo "				<li>Ada</li>\n"; 
-	echo "				<li>Adamsville</li>\n"; 
-	echo "				<li>Addyston</li>\n"; 
-	echo "				<li>Delphi\n"; 
-	echo "					<ul>\n"; 
-	echo "					<li>Ada</li>\n"; 
-	echo "					<li>Saarland</li>\n"; 
-	echo "					<li>Salzburg an der schönen Donau</li>\n"; 
-	echo "					</ul>\n"; 
-	echo "				</li>\n"; 
-	echo "				<li>Saarland</li>\n"; 
-	echo "				<li>Salzburg\n"; 
-	echo "					<ul>\n"; 
-	echo "					<li>Delphi\n"; 
-	echo "						<ul>\n"; 
-	echo "						<li>Ada</li>\n"; 
-	echo "						<li>Saarland</li>\n"; 
-	echo "						<li>Salzburg</li>\n"; 
-	echo "						</ul>\n"; 
-	echo "					</li>\n"; 
-	echo "					<li>Delphi\n"; 
-	echo "						<ul>\n"; 
-	echo "						<li>Ada</li>\n"; 
-	echo "						<li>Saarland</li>\n"; 
-	echo "						<li>Salzburg</li>\n"; 
-	echo "						</ul>\n"; 
-	echo "					</li>\n"; 
-	echo "					<li>Perch</li>\n"; 
-	echo "					</ul>\n"; 
-	echo "				</li>\n"; 
-	echo "				<li>Amesville</li>\n"; 
-	echo "			</ul>\n";
-};
-
 
 
 
@@ -81,6 +44,74 @@ function Spacer(){
 	echo "<br />\n"; 
 	echo "<br />\n";
 };
+
+
+
+
+function RenderSkeleton1(){
+	echo "<!DOCTYPE html>\n"; 
+	echo "<html>\n"; 
+	echo "<head>\n"; 
+	echo "<meta charset=utf-8 />\n"; 
+	echo "<title></title>\n"; 
+	echo "<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"../css/BaseCSS.css\" />\n"; 
+	echo "\n"; 
+	echo "\n"; 
+	echo "<script src=\"//code.jquery.com/jquery-1.10.2.js\"></script>\n"; 
+	echo "<script src=\"//code.jquery.com/ui/1.11.0/jquery-ui.js\"></script>\n"; 
+	echo "<link rel=\"stylesheet\" href=\"../css/JQMenu.css\">\n"; 
+	echo "\n"; 
+	echo "<script>\n"; 
+	echo "		$(function() {\n"; 
+	echo "			$( \"#menu\" ).menu();\n"; 
+	echo "		});\n"; 
+	echo "</script>\n";
+	echo "\n"; 
+	echo "\n"; 
+	echo "</head>\n"; 
+	echo "\n"; 
+	echo "<body>\n";
+};
+
+
+function RenderSkeleton2(){
+	echo "</body>\n"; 
+	echo "</html>\n";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

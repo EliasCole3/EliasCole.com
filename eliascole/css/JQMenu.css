@@ -53,6 +53,7 @@
 
 .ui-front {
 	z-index: 100;
+	width: 180px;
 }
 
 
@@ -469,6 +470,7 @@ button.ui-button::-moz-focus-inner {
 	min-height: 0; /* support: IE7 */
 	/* support: IE10, see #8844 */
 	list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+	font-size: 16px;
 }
 .ui-menu .ui-menu-divider {
 	margin: 5px 0;
@@ -1212,6 +1214,7 @@ body .ui-tooltip {
 /* Overlays */
 .ui-widget-overlay {
 	background: #aaaaaa url("images/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;
+	opacity: .3;l("images/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;
 	opacity: .3;
 	filter: Alpha(Opacity=30);
 }
@@ -1225,6 +1228,6 @@ body .ui-tooltip {
 }
 
 
-.ui-menu { 
-	width: 150px; 
-}
+/* .ui-menu { 
+	width: 180px; hah! fixed you
+} */

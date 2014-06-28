@@ -1,10 +1,3 @@
-body {
-    background-color: #4F6AFF;
-	min-width: 800px;
-}
-
-
-
 html {
     margin:0;
     padding:0;
@@ -12,15 +5,18 @@ html {
     background:#162DB3;
 }
 
-
-.poem {
-	text-align: center;
-	/* margin-top: 15%; */
+body {
+    /* background-color: #4F6AFF; */
+	/* background-color: #fff; */
+	background-color: #162DB3;
+	min-width: 800px;
 }
 
 #wrapper{
 	background-color: #4F6AFF;
 	/* height: 800px; */
+	margin: 50px;
+	padding: 20px;
 }
 
 #header{
@@ -29,65 +25,57 @@ html {
 	font-size: 80px;
 	color: #fff;
 	margin-bottom: 2%;
-	
 }
 
 #nav{
-	border: 3px #B3B2B2 solid;
-	padding: 15px;
+	/* border: 3px #B3B2B2 solid; */
+	/* padding: 15px; */
 	width: 10%;
 	float: left;
 	margin-left: 1%;
 	min-width: 80px;
+	width: 90px;
+	
 }
-
 #nav a:link {
 	color: #fff;
 }
-
 #nav a:visited {
 	color: #E3E2E2;
 }
-
 #nav a:hover {
 	color: #B3B2B2;  
 }
 
 #body{
-	margin-left: 16%;
-	border: solid 5px #B3B2B2;
+	margin-left: 10%;
+	/* border: solid 5px #B3B2B2; */
 	width: 80%;
 	min-width: 1000px;
 	/* min-height: 600px; */
 	/* height: 700px; */
-	
 }
 
 .iframe {
 	/* margin: auto; */
 	/* padding: auto; */
 	margin-left: 5%;
-	margin-top: 5%;
-
+	margin-top: 2%;
 }
 
-.download{
+.download {
 	padding: 10px;
 	font-size: 18px;
 	text-align: center;
 }
-
 .download a:link {
 	color: #fff;
 }
-
 .download a:visited {
 	color: #E3E2E2;
 }
-
 .download a:hover {
 	color: #B3B2B2;
-	
 }
 
 #splashMessage{
@@ -96,3 +84,6 @@ html {
 	margin-top: 10px;
 }
 
+.SpacerForCode{
+	margin-left: 6%;
+}
