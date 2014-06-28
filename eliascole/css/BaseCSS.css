@@ -1,0 +1,98 @@
+body {
+    background-color: #4F6AFF;
+	min-width: 800px;
+}
+
+
+
+html {
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#162DB3;
+}
+
+
+.poem {
+	text-align: center;
+	/* margin-top: 15%; */
+}
+
+#wrapper{
+	background-color: #4F6AFF;
+	/* height: 800px; */
+}
+
+#header{
+	text-align: center;
+	border-bottom: solid 3px #162DB3;
+	font-size: 80px;
+	color: #fff;
+	margin-bottom: 2%;
+	
+}
+
+#nav{
+	border: 3px #B3B2B2 solid;
+	padding: 15px;
+	width: 10%;
+	float: left;
+	margin-left: 1%;
+	min-width: 80px;
+}
+
+#nav a:link {
+	color: #fff;
+}
+
+#nav a:visited {
+	color: #E3E2E2;
+}
+
+#nav a:hover {
+	color: #B3B2B2;  
+}
+
+#body{
+	margin-left: 16%;
+	border: solid 5px #B3B2B2;
+	width: 80%;
+	min-width: 1000px;
+	/* min-height: 600px; */
+	/* height: 700px; */
+	
+}
+
+.iframe {
+	/* margin: auto; */
+	/* padding: auto; */
+	margin-left: 5%;
+	margin-top: 5%;
+
+}
+
+.download{
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.download a:link {
+	color: #fff;
+}
+
+.download a:visited {
+	color: #E3E2E2;
+}
+
+.download a:hover {
+	color: #B3B2B2;
+	
+}
+
+#splashMessage{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
