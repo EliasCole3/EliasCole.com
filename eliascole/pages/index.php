@@ -7,12 +7,15 @@
 
 	<?php
 		DisplayHeader();
-		DisplayNav();
+		DisplayNav2();
 	?>
+	<br />
+	<br />
 		 
 	<div id="body">		
-		
+	
 		<div id="splashMessage">
+			
 			<b>Welcome!</b> 
 			<br />
 			<br />
@@ -21,9 +24,9 @@
 			
 		<?php
 			Spacer();
-			Spacer();
-			Spacer();
 		?>
+		
+		
 	</div>
 </div>
 
@@ -31,5 +34,4 @@
 <?php
 	RenderSkeleton2();
 ?>
-
 

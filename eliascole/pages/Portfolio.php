@@ -7,13 +7,20 @@
 
 	<?php
 		DisplayHeader();
-		DisplayNav();
+		DisplayNav2();
 	?>
+	<br />
+	<br />
 		 
 	<div id="body">		
-		<?php
-			Spacer();
-		?>
+		
+		<ul>
+			<li><a href='Assembly.php' > Assembly MASM </a> </li>
+			<li><a href='MatchingGame.php' > Matching Game </a> </li>
+			<li><a href='AndroidFragments.php' > Android Fragments </a> </li>
+		</ul>		
+		
+		
 	</div>
 </div>
 

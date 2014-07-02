@@ -81,6 +81,30 @@ function RenderSkeleton2(){
 };
 
 
+function DisplayNav2(){
+
+	echo "
+	<div></div>
+	<div id=\"menu2\">
+		<ul id=\"sddm\">
+			<li><a href=\"index.php\">Home</a></li>
+			<li><a href=\"Resume.php\">Resume</a></li>
+			
+			<li><a href=\"Portfolio.php\" onmouseover=\"mopen('div1')\" onmouseout=\"mclosetime()\">Portfolio</a>
+				<div id=\"div1\" onmouseover=\"mcancelclosetime()\" onmouseout=\"mclosetime()\">
+					<a href='Assembly.php' > Assembly MASM </a> 
+					<a href='MatchingGame.php' > Matching Game </a> 
+					<a href='AndroidFragments.php' > Android Fragments </a> 
+				</div>
+			</li>
+			<li><a href=\"JQTest.php\">Testing</a></li>
+		</ul>
+	</div>
+	
+	";
+	
+};
+
 
 
 

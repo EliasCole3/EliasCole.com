@@ -7,15 +7,16 @@
 
 	<?php
 		DisplayHeader();
-		DisplayNav();
+		DisplayNav2();
 	?>
+	<br />
+	<br />
 		 
 	<div id="body">		
-		<?php
-			Spacer();
-		?>
-	</div>
 	
+		
+		
+	</div>
 </div>
 
 

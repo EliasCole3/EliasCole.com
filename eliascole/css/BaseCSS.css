@@ -56,19 +56,24 @@ body {
 }
 
 #body{
-	margin-left: 10%;
+	/* margin-left: 10%; */
 	/* border: solid 5px #B3B2B2; */
-	width: 80%;
+	width: 100%;
 	min-width: 1000px;
 	/* min-height: 600px; */
 	/* height: 700px; */
 }
 
+#iframediv{
+	margin-left: 100px;
+	/* margin-right: 0 auto; */
+}
+
 .iframe {
 	/* margin: auto; */
 	/* padding: auto; */
-	margin-left: 5%;
-	margin-top: 90px;
+	/* margin-left: 5%; */
+	margin-top: 20px;
 	/* z-index: -1; */
 }
 
@@ -98,16 +103,42 @@ body {
 }
 
 
+ a:link {
+	color: #fff;
+}
+ a:visited {
+	color: #E3E2E2;
+}
+ a:hover {
+	color: #B3B2B2;
+}
+
+
 
 
 /* 
 For drop down menu
 http://javascript-array.com
 */
-#sddm
-{	margin: 0;
+#menu2 {
+	/* margin-left: auto; */
+    /* width: 70%; */
+	width: 324px;  /*hand adjust to width of list*/
+	margin-left: auto;
+	margin-right: auto;
+	/* height: 100px; */
+	/* background-color: white; */
+	margin-bottom: 40px;
+}
+
+#sddm {
+	/* margin: 0; */
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+	/* margin: 0 auto; */
 	padding: 0;
-	z-index: 30}
+	z-index: 30
+}
 
 #sddm li
 {	margin: 0;

@@ -7,15 +7,19 @@
 
 	<?php
 		DisplayHeader();
-		DisplayNav();
+		DisplayNav2();
 	?>
+	<br />
+	<br />
 		 
 	<div id="body">		
 	
+		
+		<div class="download">
+			<a href="https://github.com/EliasCole3/BusinessDemos">Github Link</a>
+		</div>
+			
 		<div class="SpacerForCode">
-			<div class="download">
-				<a href="https://github.com/EliasCole3/BusinessDemos">Github Link</a>
-			</div>
 		
 			<?php
 			echo "TITLE Program 					(main.asm)<br />"; 
@@ -311,6 +315,7 @@
 			echo "END main<br />";
 			?>
 		</div>
+		
 	</div>
 </div>
 
