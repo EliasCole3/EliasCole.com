@@ -15,7 +15,7 @@
 		<!-- <iframe name="window" frameborder=2 width=580 height=440 src="EliasColeResume.docx"></iframe> -->
 		<!--  <a href="http://docs.google.com/viewer?url=[EliasColeResume.docx]" target="awindow">Doc 2</a> -->
 			
-		<div class="download">
+		<div class="download" >
 			<a href="../files/EliasColeResume.docx">Download as a docx</a>
 		</div>
 			

@@ -2,26 +2,34 @@ html {
     margin:0;
     padding:0;
     color:#000;
-    background:#162DB3;
+    /* background:#162DB3; */
+	background: #000;
+
 }
 
 body {
     /* background-color: #4F6AFF; */
 	/* background-color: #fff; */
-	background-color: #162DB3;
+	/* background-color: #162DB3; */
+	background:#000;
 	min-width: 800px;
+	
 }
 
 #wrapper{
 	background-color: #4F6AFF;
+	/* background-color: rgba(80, 100, 213, 1); */
+	/* background-color: rgba(80, 166, 213, 1);	 */
+	/* background-color: #05B5BD; */
 	/* height: 800px; */
 	margin: 50px;
 	padding: 20px;
+	border-radius: 25px;
 }
 
 #header{
 	text-align: center;
-	border-bottom: solid 3px #162DB3;
+	border-bottom: solid 3px #B3B2B2;
 	font-size: 80px;
 	color: #fff;
 	margin-bottom: 2%;
@@ -60,7 +68,8 @@ body {
 	/* margin: auto; */
 	/* padding: auto; */
 	margin-left: 5%;
-	margin-top: 2%;
+	margin-top: 90px;
+	/* z-index: -1; */
 }
 
 .download {
@@ -87,3 +96,60 @@ body {
 .SpacerForCode{
 	margin-left: 6%;
 }
+
+
+
+
+/* 
+For drop down menu
+http://javascript-array.com
+*/
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 60px;
+	background: #5970B2;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none}
+
+#sddm li a:hover
+{	background: #49A3FF}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+#sddm div a
+{	position: relative;
+	display: block;
+	margin: 0;
+	padding: 5px 10px;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background: #EAEBD8;
+	color: #2875DE;
+	font: 11px arial}
+
+#sddm div a:hover
+{	background: #49A3FF;
+	color: #FFF}

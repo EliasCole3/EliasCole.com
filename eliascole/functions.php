@@ -13,7 +13,7 @@ function DisplayNav() {
 			<li> <a href='AndroidFragments.php' > Android Fragments </a> </li>\n
 		</ul>
 		</li>\n" .
-		// "<li> <a href='JQTest.php' > JQTest </a> </li>\n" .
+		 "<li> <a href='JQTest.php' > JQTest </a> </li>\n" .
 	"</ul>\n" .
 	"</div>"
 	);
@@ -59,6 +59,7 @@ function RenderSkeleton1(){
 	echo "\n"; 
 	echo "<script src=\"//code.jquery.com/jquery-1.10.2.js\"></script>\n"; 
 	echo "<script src=\"//code.jquery.com/ui/1.11.0/jquery-ui.js\"></script>\n"; 
+	echo "<script src=\"../JS/functions.js\"></script>\n"; 
 	echo "<link rel=\"stylesheet\" href=\"../css/JQMenu.css\">\n"; 
 	echo "\n"; 
 	echo "<script>\n"; 

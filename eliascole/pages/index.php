@@ -21,6 +21,8 @@
 			
 		<?php
 			Spacer();
+			Spacer();
+			Spacer();
 		?>
 	</div>
 </div>
