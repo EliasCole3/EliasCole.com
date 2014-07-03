@@ -13,12 +13,14 @@
 	<br />
 		 
 	<div id="body">		
-		
-		<ul>
-			<li><a href='Assembly.php' > Assembly MASM </a> </li>
-			<li><a href='MatchingGame.php' > Matching Game </a> </li>
-			<li><a href='AndroidFragments.php' > Android Fragments </a> </li>
-		</ul>		
+	
+		<div class="DisplayText">
+			
+				<a href='Assembly.php' > Assembly MASM </a> <br />
+				<a href='MatchingGame.php' > Matching Game </a> <br /> 
+				<a href='AndroidFragments.php' > Android Fragments </a> <br />	
+			
+		</div>
 		
 		
 	</div>

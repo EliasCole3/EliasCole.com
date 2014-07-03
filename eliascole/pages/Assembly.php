@@ -29,11 +29,11 @@
 			echo ";Program 4<br />"; 
 			echo "<br />"; 
 			echo ";This program:<br />"; 
-			echo ";	*Generates an array of 10-200 numbers(user specified) in the range[100-999]<br />"; 
-			echo ";	*Displays the array<br />"; 
-			echo ";	*Sorts the array<br />"; 
-			echo ";	*Displays the array again<br />"; 
-			echo ";	*Finds and displays the median value of the array<br />"; 
+			echo ";	* Generates an array of 10-200 numbers(user specified) in the range[100-999]<br />"; 
+			echo ";	* Displays the array<br />"; 
+			echo ";	* Sorts the array<br />"; 
+			echo ";	* Displays the array again<br />"; 
+			echo ";	* Finds and displays the median value of the array<br />"; 
 			echo "<br />"; 
 			echo "<br />"; 
 			echo "INCLUDE Irvine32.inc<br />"; 

@@ -60,13 +60,13 @@ function RenderSkeleton1(){
 	echo "<script src=\"//code.jquery.com/jquery-1.10.2.js\"></script>\n"; 
 	echo "<script src=\"//code.jquery.com/ui/1.11.0/jquery-ui.js\"></script>\n"; 
 	echo "<script src=\"../JS/functions.js\"></script>\n"; 
-	echo "<link rel=\"stylesheet\" href=\"../css/JQMenu.css\">\n"; 
-	echo "\n"; 
-	echo "<script>\n"; 
-	echo "		$(function() {\n"; 
-	echo "			$( \"#menu\" ).menu();\n"; 
-	echo "		});\n"; 
-	echo "</script>\n";
+	// echo "<link rel=\"stylesheet\" href=\"../css/JQMenu.css\">\n"; 
+	// echo "\n"; 
+	// echo "<script>\n"; 
+	// echo "		$(function() {\n"; 
+	// echo "			$( \"#menu\" ).menu();\n"; 
+	// echo "		});\n"; 
+	// echo "</script>\n";
 	echo "\n"; 
 	echo "\n"; 
 	echo "</head>\n"; 
@@ -97,11 +97,11 @@ function DisplayNav2(){
 					<a href='AndroidFragments.php' > Android Fragments </a> 
 				</div>
 			</li>
-			<li><a href=\"JQTest.php\">Testing</a></li>
+			
 		</ul>
 	</div>
-	
 	";
+	//<li><a href=\"JQTest.php\">Testing</a></li>
 	
 };
 
