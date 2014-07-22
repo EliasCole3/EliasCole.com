@@ -17,7 +17,8 @@ body {
 }
 
 #wrapper{
-	background-color: #4F6AFF;
+	/* background-color: #4F6AFF; */
+	background-color: #40ade5;
 	/* background-color: rgba(80, 100, 213, 1); */
 	/* background-color: rgba(80, 166, 213, 1);	 */
 	/* background-color: #05B5BD; */
@@ -65,8 +66,10 @@ body {
 }
 
 #iframediv{
-	margin-left: 100px;
-	/* margin-right: 0 auto; */
+	/* margin-left: 100px; */
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
 }
 
 .iframe {
@@ -120,6 +123,13 @@ body {
 	margin-right: auto;
 	/* height: 1000px; */
 	/* background-color: white; */
+}
+
+.image2{
+	width: 637px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
 }
 
 .DisplayText{
