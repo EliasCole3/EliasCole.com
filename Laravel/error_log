@@ -1,0 +1,1 @@
+[11-Oct-2015 17:17:33 America/Detroit] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/eliascol/Laravel/artisan on line 31

@@ -1,0 +1,7 @@
+<?
+
+//echo "blah\n";
+
+phpinfo();
+
+?>

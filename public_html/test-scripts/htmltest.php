@@ -1,0 +1,22 @@
+<?
+!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset=utf-8 />
+
+    <title>:D</title>
+
+</head>
+
+<body>
+
+ asdf
+
+</body>
+
+</html>
+
+?>

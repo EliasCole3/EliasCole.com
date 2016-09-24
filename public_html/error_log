@@ -1,0 +1,7 @@
+[10-Oct-2015 23:32:24 America/Detroit] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/eliascol/public_html/foo.php on line 7
+[12-Oct-2015 23:33:21 America/Detroit] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/eliascol/public_html/index.php on line 58
+[12-Oct-2015 23:33:26 America/Detroit] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/eliascol/public_html/index.php on line 58
+[12-Oct-2015 23:33:30 America/Detroit] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/eliascol/public_html/index.php on line 58
+[12-Oct-2015 23:33:34 America/Detroit] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/eliascol/public_html/index.php on line 58
+[12-Oct-2015 23:33:36 America/Detroit] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/eliascol/public_html/index.php on line 58
+[12-Oct-2015 23:33:44 America/Detroit] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/eliascol/public_html/index.php on line 58

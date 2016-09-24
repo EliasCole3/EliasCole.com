@@ -1,0 +1,52 @@
+
+#wrapper {
+  height: 1000px;
+}
+
+html, body {height: 100%;}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#btn1 {
+  margin-left: 400px;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+.tall {
+  height: 100%;
+  float: left;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+}
+.fixed {
+  position: absolute;
+  width: 30px;
+  height: 1000px;
+  top: 0px;
+}
+
+.wrapper {
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0px 15px;
+}
+
+
+
+
+
+
