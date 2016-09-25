@@ -5,7 +5,8 @@ module.exports = function(grunt) {
     watch: {
 
       options: {
-        livereload: true
+        livereload: true,
+        hostname: 'localhost'
       },
 
       // if any .scss file in the project changes, run sass:build
@@ -121,7 +122,8 @@ module.exports = function(grunt) {
         options: {
           port: 9001,
           // base: 'dist',
-          livereload: true
+          livereload: true,
+          hostname: 'localhost'
         }
       }
     },
