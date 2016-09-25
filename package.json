@@ -1,7 +1,6 @@
 {
-  "name": "spa-template-2",
+  "name": "elias-cole-website",
   "version": "1.0.0",
-  "description": "With Grunt instead of Webpack",
   "main": "index.js",
   "scripts": {
     "start": "grunt",
@@ -9,14 +8,6 @@
     "clean": "rm -rf dist/",
     "rebuild": "rm -rf dist/ && grunt build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@corpupsource01.corp.theplatform.com:elias.cole/spa-template-2.git"
-  },
-  "keywords": [
-    "spa",
-    "template"
-  ],
   "author": "Elias Cole",
   "license": "ISC",
   "devDependencies": {
