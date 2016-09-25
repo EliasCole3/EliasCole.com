@@ -1,0 +1,16 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: purple;
+$chosen-width: 150px;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color !important;
+}
+
+#chosen-example {
+  width: $chosen-width;
+}
+
+.relative {
+  position: relative;
+}
