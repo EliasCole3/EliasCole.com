@@ -2,9 +2,9 @@
 <html>
 <head>
     <meta charset=utf-8 />
-    <title><('_')></title>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css' />
+    <title>Elias Cole</title>
     <link rel='stylesheet' type='text/css' media='screen' href='styles/bootstrap.css' />
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css' />
     <link rel='stylesheet' type='text/css' media='screen' href='styles/chosen.css' />
     <link rel='stylesheet' type='text/css' media='screen' href='styles/bootstrap-datetimepicker.css' />
 
@@ -18,34 +18,53 @@
 </head>
 <body>
 
-    <div id='page-header' class='page-header'>
-        <h1>SPA Template</h1>
-    </div>
 
-    <h3>“Invention, my dear friends, is 93% perspiration, 6% electricity, 4% evaporation, and 2% butterscotch ripple.”</h3>
+	<div id='wrapper'>
+	    <div id='body'>
 
-    <br>
-    <br>
 
-    <select id='chosen-example'  class='form-control' data-placeholder="I'm searchable!">
-        <option></option>
-        <option value='one'>Feel the Rhythm</option>
-        <option value='two'>Feel the Rhyme</option>
-        <option value='three'>Get on up</option>
-        <option value='four'>It's bobsled time</option>
-    </select>
+	            <div id='header'>
+	                <b>Elias Cole III</b>
+	            </div>
 
-    <br>
-    <br>
+	            <div id="menu2">
+	                <ul id="sddm">
+	                    <li><a href="/">Home</a></li>
+	                    <li><a href="/resume">Resume</a></li>
 
-    <div class='relative'>
-        <input id='datetime-picker'>
-    </div>
+	                    <li><a href="/portfolio" onmouseover="mopen('div1')" onmouseout="mclosetime()">Portfolio</a>
+	                        <div id="div1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+	                            <a href='/portfolio/assembly'> Assembly MASM </a>
+	                            <a href='/portfolio/matching-game'> Matching Game </a>
+	                            <a href='/portfolio/android-fragments'> Android Fragments </a>
+	                        </div>
+	                    </li>
 
-    <br>
-    <br>
+	                </ul>
+	            </div>
 
-    <button id='title-change' class='btn btn-medium'>Click Me</button>
+
+	            <div class="content">
+	                <div id="splashMessage">
+
+	                    <b>Welcome!</b> <br> <br>
+
+	                    Please feel free to peruse my previous work and take a look at my resume. <br />
+
+	                    <div class="update-container">
+	                        What I’m currently working on: <br /><br />
+	                        In my spare time I’ve been developing an app that will track, filter, and attractively display personal events(doc appointment, tires rotated, move-in date, etc.) on a timeline. I’ve been using MongoDB, Node.js, Express.js, and Mongoose. It’s been wonderful not having the context shift between three languages. It’s also been a little odd coding full-stack; it’s a weird feeling to be working on a front-end design issue, and then starting to address that issue by diving down to the bottom of the stack and manipulating the DB. So far the most interesting thing I've done(besides just getting the whole thing to work) has been implementing my own auto-incrementing field in Mongo, using the driver in Node. Pretty simple, but it was a fun one ^_^
+	                    </div>
+
+	                </div>
+	            </div>
+
+
+	    </div>
+	</div>
+
+
+
 
 
 </body>

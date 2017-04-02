@@ -5,6 +5,7 @@ module.exports = function(grunt) {
     watch: {
 
       options: {
+      	port: 9003,
         livereload: true,
         hostname: 'localhost'
       },
@@ -60,7 +61,7 @@ module.exports = function(grunt) {
       images: {
         expand: true,
         cwd: 'src/images',
-        src: '**',
+        src: ['**', '!**/Thumbs.db'],
         dest: 'dist/images',
       },
 
@@ -120,7 +121,7 @@ module.exports = function(grunt) {
     connect: {
       server: {
         options: {
-          port: 9001,
+          port: 9003,
           // base: 'dist',
           livereload: true,
           hostname: 'localhost'
